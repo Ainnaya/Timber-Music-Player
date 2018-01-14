@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingTop="15dp">
+
+
+    <TextView
+        android:id="@+id/about_appname"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/about_app_name"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/about_timber"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ainnaya"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Ainnaya Nur Akasah (XIIR6)"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/andini"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingLeft="20dp"
+            android:paddingTop="8dp"
+            android:text="Andini Novidayanti (XIIR6)"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/naufal"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingLeft="20dp"
+            android:paddingTop="8dp"
+            android:text="Naufal Dwi (XIIR6)"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dismiss_dialog"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:text="@android:string/ok"
+        android:textSize="18sp" />
+
+</LinearLayout>
